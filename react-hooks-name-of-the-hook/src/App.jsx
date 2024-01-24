@@ -25,9 +25,13 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(inputValue!==''){
     const newPost = { id: Date.now(), name: inputValue, toggle: true};
     dispatch({ type: ACTION_TYPE.ADD_POST, payload: newPost });
-    setInputValue('');
+    setInputValue('');}
+    else{
+      alert("please enter something")
+    }
   };
   function focus(){
     ref.current.focus();
