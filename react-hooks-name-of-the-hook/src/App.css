@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.inputField{
+  height: 20px;
+  width: 300px;
+  border-radius: 2em;
+  padding: 10px;
+  margin: 30px;
+}
+.post{
+  border:2px solid blue;
+}
+.newPost{
+  margin: 30px;
+}
